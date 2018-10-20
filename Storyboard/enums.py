@@ -51,26 +51,11 @@ class RevisionType(Enum):
     FINAL = "Final"
 
 
-class ActivityType(Enum):
-    CLICK_ON = "Click on"
-    DRAG_AND_DROP = "Drag and Drop"
-    DROP_DOWN_MENU = "DropDown Menu"
-    MATCHING = "Matching"
-    ROLLOVER = "Rollover"
-    SLIDER = "Slider"
-    TYPE_IN = "Type In"
-    OTHER = "Other"
-    ANIMATION = "Animation"
-    COMBINATION = "Combination"
-    FLOWCHART = "Flowchart"
-    MULTISTEP_ANSWERS = "Multi-Step Answers"
-    SELECT_CORRECT_ANSWER = "Select Correct Answer"
-    POP_UPS = "Pop Ups"
-    INSTANT_FEEDBACK = "Instant Feedback"
-    ON_SUBMIT_FEEDBACK = "On Submit Feedback"
-
-
-class LAType(Enum):
+class UploadType(Enum):
     FILE = "File"
     DIRECTORY = "Directory"
 
+
+class ScreenType(Enum):
+    CONTENT = "Content"
+    QUESTION = "Question"
